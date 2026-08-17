@@ -1,12 +1,3 @@
-Für dein GitHub-Repository ist eine gut strukturierte **README.md** (die Startseite deines Projekts) die halbe Miete. Sie zeigt Personalentscheidern und anderen Entwicklern auf einen Blick, dass du strukturiert arbeitest und verstehst, was du da programmiert hast.
-
-Da du dich im DCI-Orientierungskurs befindest, sollte die Beschreibung genau das widerspiegeln: **stolz auf das Erreichte, technisch präzise, aber ehrlich im Bezug auf deine Lernreise.**
-
-Hier ist ein fertiger Entwurf für deine **GitHub-README.md**, den du einfach kopieren und in eine Datei namens `README.md` in deinem Repository einfügen kannst:
-
----
-
-```markdown
 # 🎰 Interaktives Web-Casino
 
 Ein Full-Stack Abschlussprojekt welches innerhalb des 2 Wöchigen Orientierungskurses beim DCI entstanden ist. 
@@ -66,13 +57,3 @@ Um das Web-Casino lokal auf deinem Rechner auszuführen, folge diesen einfachen 
    backend.py
    ```
    Öffne anschließend deinen Browser unter `http://127.0.0.1:5000/`.
-```
-
----
-
-### 💡 Ein paar Tipps für deinen GitHub-Auftritt:
-
-1. **Erstelle eine `app.py`:** Falls deine Hauptdatei im Python-Code anders heißt (z. B. `main.py` oder `server.py`), passe den Namen im README-Text unter "Server starten" einfach an.
-2. **Ordnerstruktur sauber halten:** Achte darauf, dass deine HTML-Dateien im Ordner `templates` liegen und deine CSS/JS-Dateien im Ordner `static` – das ist der Flask-Standard.
-
-📂 Möchtest du, dass ich dir eine strukturierte Ordnerübersicht erstelle, die du ebenfalls im README einbinden kannst, um zu zeigen, wie ordentlich dein Code aufgeteilt ist?
