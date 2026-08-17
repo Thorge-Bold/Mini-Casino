@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thorges Mini-Casino</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <div class="haupt-karte">
+        <h1>🎰 Thorges Web-Casino 🎰</h1>
+        
+        <div class="spiele-bereich">
+            <div class="spiel-schachtel">
+                <h3>Zahlenrätsel</h3>
+                <img src="../static/zraten.jpg" alt="Zahlenrätsel" class="spiel-bild">
+                <div class="eingabe-bereich">
+                    <input type="number" id="tipp_raten" placeholder="Zahl (1-10)">
+                    <button id="knopf_raten" class="knopf-aktion">Raten</button>
+                </div>
+                <div class="ergebnis-anzeige" id="ergebnis_raten">-</div>
+            </div>
+
+            <div class="spiel-schachtel">
+                <h3>Mini-Roulette</h3>
+                <img src="../static/roulette.jpg" alt="Roulette" class="spiel-bild">
+                <div class="eingabe-bereich">
+                    <input type="number" id="tipp_roulette_zahl" placeholder="Zahl (1-10)">
+                    <input type="text" id="tipp_roulette_farbe" placeholder="Farbe (rot/schwarz)">
+                    <button id="knopf_roulette" class="knopf-aktion">Setzen</button>
+                </div>
+                <div class="ergebnis-anzeige" id="ergebnis_roulette">-</div>
+            </div>
+
+            <div class="spiel-schachtel">
+                <h3>Münzwurf</h3>
+                <img src="../static/muenzwurf.jpg" alt="Münzwurf" class="spiel-bild">
+                <div class="eingabe-bereich">
+                    <input type="text" id="tipp_muenzwurf" placeholder="Kopf oder Zahl">
+                    <button id="knopf_muenzwurf" class="knopf-aktion">Werfen</button>
+                </div>
+                <div class="ergebnis-anzeige" id="ergebnis_muenzwurf">-</div>
+            </div>
+
+            <div class="spiel-schachtel">
+                <h3>Mini-Blackjack</h3>
+                <img src="../static/Blackjack.jpg" alt="Blackjack" class="spiel-bild">
+                
+                <div id="bj_spielstand" style="font-size: 0.9rem; text-align: left; width: 100%; margin-bottom: 10px; color: #333;">
+                    <p id="bj_spieler_karten">Deine Karten: -</p>
+                    <p id="bj_spieler_punkte">Deine Punkte: 0</p>
+                    <hr style="border: 0.5px solid #ccc;">
+                    <p id="bj_gegner_karten">Computer-Karten: -</p>
+                    <p id="bj_gegner_punkte">Computer-Punkte: 0</p>
+                </div>
+
+                <div class="eingabe-bereich">
+                    <button id="knopf_bj_start" class="knopf-aktion" style="background-color: green;">Spiel starten</button>
+                    <button id="knopf_bj_ziehen" class="knopf-aktion" style="background-color: orange;" disabled>Nächste</button>
+                    <button id="knopf_bj_stopp" class="knopf-aktion" style="background-color: darkred;" disabled>Stopp</button>
+                </div>
+                <div class="ergebnis-anzeige" id="ergebnis_blackjack">-</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../static/script.js"></script>
+</body>
+</html>

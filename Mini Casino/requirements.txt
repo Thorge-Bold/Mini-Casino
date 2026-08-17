@@ -1,0 +1,3 @@
+from flask import Flask, jsonify, request       # lädt alle nötigen werkzeuge rein
+from flask_cors import CORS                     # CORS Brücke zwischen FE und BE wird gebaut
+import random               			# zufallsgenerator
